@@ -1,0 +1,13 @@
+To compile:
+g++ main.cpp
+
+To execute:
+./a.out <imagefile1>.bmp <imagefile2>.bmp <imagefile3>.bmp
+
+if no command line args are provided then
+image1 = image1.bmp
+image2 = image2.bmp
+image3 = image3.bmp
+
+Output:
+File generated as TargetImage.bmp in the same dir
